@@ -1,0 +1,22 @@
+data = {"intents":[
+    {"tag": "greeting",
+    "patterns": ["Hello", "Ola", "Hi", "Oi", "Salut", "Bonjour", "Bonsoir", "ça roule?", "ça se passe?", "yo"],
+    "responses": ["Salut à toi", "Oi", "Ola, tudo bem?", "Hey", "ça va?"],
+    },
+    {"tag": "age",
+     "patterns": ["Tem quantos anos?", "Qual sua idade?","Quando você nasceu?", "Quel âge as tu?", "How old are you?"],
+     "responses": ["Eu não nasci ainda", "I ain't born yet", "Je suis pas né encore"],
+    },
+    {"tag": "date",
+     "patterns": ["On fais quoi ce soir?", "O que você vai fazer hoje?"],
+     "responses": ["Je suis libre tout la semaine", "Estou livre", "Não tenho nada programado"],
+    },
+    {"tag": "name",
+     "patterns": ["Qui es tu?", "C'est quoi ton prènom?", "Comment tu t'appeles?", "What's your name?", "Comment vous vous appellez?"],
+     "responses": ["Moi c'est Chatbot V1.0", "je m'appelle Chatbot V1.0, mais c'est chaton pour toi"],
+    },
+    {"tag": "bye",
+     "patterns": ["Au revoir", "à plus", "xau", "bye"],
+     "responses": ["Salut! à +", "Au revoir, j'espere qu'on se voir tout à l'heure", "Até mais!", "Bye bye"],
+    }
+]}
